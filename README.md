@@ -87,7 +87,7 @@ Run docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop
 Browse to http://localhost:3000 (on macOS and Windows browse to http://192.168.99.100:3000 if you are using docker-machine instead of the native docker installation)
 
 # Let's play: 
-### Target Tab 
+### Site Tree
 
 Focus on specific sites
 
@@ -97,25 +97,17 @@ Visualize attack  surface
 
 Set "Scope" to filter or other tools
 
-### Proxy Tab 
-
-Trap/Modify live traffic
-
-View all traffic
-
-Set wild scale configuration for the traffic flowing through Burp
-
 ### Spider 
 
 Spidering will find you all the linked content: Pages, scripts and images, ...
 
 Content discovery is finding unlinked content by either guessing or brute force  
 
-### Scanner
+### Active Scan
 
 Automatically scan and  fuzz all traffic for common vulnerabilities  
 
-### Burp Intruder
+### Fuzzer
 
 Set up robust, automated/scripted testing easily
 
@@ -129,47 +121,26 @@ Iterating ID's, etc, etc
 
 ++
 
-### Burp Reapeter
+### Request Editor
 
 Replay requests quickly and  from any tool inside of Burp
 
 Perform manual testing
 
-### Sequencer
-
-Analyzing the quality of randomness in a sample of data
-
-### Decoder
+### Encode/Decode/Hash
 
 Transforming encoded data into its canonical form
 
-### Comparer
+### Add on Marketplace
 
-Performing a comparison (a visual "diff") between any two items of data
+Power on addons only in case of need
 
-### Extender
-
-Power on extensions only in case of need
-
-### Useful OWASP ZAP EXTENTIONS:
-
-Active Scan ++
-
-Additionalr Scanner Checks
-
-Backslash Powered Scanners
-
-Param Miner
-
-Site Map Extractor
-
-Soft vulnerability Scanner
-
-Retire.JS
-
-JSON Beatifier
-
-Authmatrix
+### Useful OWASP ZAP addons:
+Active Scanner rules
+    
+Passive Scanner rules
+    
+FuzzDB
 
 ## Useful lists:
 
@@ -188,6 +159,12 @@ https://www.amazon.co.uk/Web-Application-Hackers-Handbook-Exploiting/dp/11180264
 https://www.owasp.org/images/1/19/OTGv4.pdf
 
 https://www.amazon.co.uk/Mastering-Modern-Web-Penetration-Testing/dp/1785284584/
+
+https://portswigger.net/web-security
+
+https://www.bugcrowd.com/hackers/bugcrowd-university/
+
+https://www.hacker101.com/
 
 
 
