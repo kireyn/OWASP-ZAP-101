@@ -123,7 +123,7 @@ Iterating ID's, etc, etc
 
 ### Request Editor
 
-Replay requests quickly and  from any tool inside of Burp
+Replay requests quickly and  from any tool inside of ZAP
 
 Perform manual testing
 
